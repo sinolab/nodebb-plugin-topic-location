@@ -1,0 +1,14 @@
+{
+	"id": "nodebb-plugin-topic-location",
+	"name": "nodebb-plugin-topic-location",
+	"description": "Extends topics with location attributes latitude and longitude",
+	"library": "index.js",
+	"version": "0.0.6",
+	"active": true,
+	"hooks": [
+		{
+			"hook": "static:app.load",
+			"method": "init"
+		}
+	]
+}
