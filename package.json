@@ -1,9 +1,9 @@
 {
-    "name": "nodebb-plugin-location-attributes",
-    "version": "0.0.6",
+    "name": "nodebb-plugin-topic-location",
+    "version": "0.0.2",
     "description": "Extends topics with location attributes latitude and longitude",
     "main": "index.js",
-    "author": "Ian Petrus",
+    "author": "Ivan Petrus",
     "license": "MIT",
     "nodebb": {
       "compatibility": "^1.17.x"
