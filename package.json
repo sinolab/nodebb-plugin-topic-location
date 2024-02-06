@@ -8,8 +8,5 @@
       "url": "https://github.com/sinolab/nodebb-plugin-topic-location"
     },
     "author": "Ivan Petrus",
-    "license": "MIT",
-    "nodebb": {
-      "compatibility": "^1.17.x"
-    }
+    "license": "MIT"
   }
