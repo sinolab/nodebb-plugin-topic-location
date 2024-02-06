@@ -1,11 +1,14 @@
 {
     "name": "nodebb-plugin-topic-location",
-    "version": "0.0.2",
+    "version": "0.0.3",
     "description": "Extends topics with location attributes latitude and longitude",
     "main": "index.js",
     "repository": {
       "type": "git",
       "url": "https://github.com/sinolab/nodebb-plugin-topic-location"
+    },
+    "nbbpm": {
+        "compatibility": ">=3.6.0"
     },
     "author": "Ivan Petrus",
     "license": "MIT"
