@@ -27,9 +27,13 @@ plugin.init = function (params, callback) {
 
     });
 
-    // add put route wiht location attrubutes
-    app.put('/api/custom/topic/:tid/locaton', async function (req, res, next) {
+    const middlewares = [
+        middleware.ensureLoggedIn,			
+    ];
 
+    // add put route wiht location attrubutes
+    app.put('/api/custom/topic/:tid/locaton', middlewares, async function (req, res, next) {
+        
         try {
             const topicId = req.params.tid;
             var { location } = req.body;
